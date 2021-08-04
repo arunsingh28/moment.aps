@@ -10,6 +10,16 @@ type this command in terminal to install timepass.aps module
 
 ## how to use
 
+for creating somethig in which you want date like 
+- created 20 second ago
+- created 4 hours ago
+- created 1 month ago
+- created 2 year ago
+
+while creating there schema include current_time value to db in which store current time `Date.now()`
+after that just fetch that value from db and pass into `getMoment()` function and this function will return 
+you that value like *created 20 second ago*
+
 ```
 const apsmoment = require('timepass.aps');
 
