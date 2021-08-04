@@ -1,8 +1,8 @@
 {
   "name": "timepass.aps",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "calculate time measurement according to current time",
-  "main": "main.js",
+  "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "start": "nodemon main.js"
