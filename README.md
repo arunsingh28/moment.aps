@@ -2,7 +2,7 @@
 
 calculate time in diffrent format like(mm/yy/hh/ss)
 
-## install
+## install package
 
 type this command in terminal to install timepass.aps module
 
