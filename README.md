@@ -14,9 +14,9 @@ type this command in terminal to install timepass.aps module
 const apsmoment = require('timepass.aps');
 
 const time = new Date.now();
-const apsmoment = apsmoment.getMoment(time);
+const moment = apsmoment.getMoment(time);
 
-console.log(apsmoment);
+console.log(moment);
 ```
 
 ## Author
