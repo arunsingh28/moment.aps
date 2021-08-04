@@ -1,19 +1,24 @@
 {
-  "name": "timepass",
-  "version": "1.1.0",
-  "description": "use to calculate time in (hh/ss/yyyy) formate",
+  "name": "timepass.aps",
+  "version": "1.2.10",
+  "description": "calculate time measurement according to current time",
   "main": "main.js",
   "bin": "index.js",
   "scripts": {
     "start": "nodemon main.js"
   },
   "keywords": [
-    "time"
+    "time",
+    "seconds",
+    "hours",
+    "format",
+    "moment"
   ],
-  "author": "arunsingh28",
-  "license": "ISC",
+  "author": "Arun Singh <arunsingh28.me>",
+  "license": "MIT",
   "homepage": "https://github.com/arunsingh28",
-  "devDependencies": {
-    "nodemon": "^2.0.12"
+  "bugs": {
+    "url": "https://github.com/arunsingh28/timepass.aps/issues",
+    "email": "arunsingh28aug.as@gmail.com"
   }
 }
