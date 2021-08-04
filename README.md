@@ -10,8 +10,6 @@ type this command in terminal to install timepass.aps module
 
 ## how to use
 
-requrie module 
-
 ```
 const apsmoment = require('timepass.aps');
 

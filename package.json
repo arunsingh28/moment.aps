@@ -1,6 +1,6 @@
 {
   "name": "timepass.aps",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "calculate time measurement according to current time",
   "main": "main.js",
   "bin": "index.js",
