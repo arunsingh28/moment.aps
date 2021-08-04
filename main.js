@@ -1,4 +1,6 @@
 const main = require('./index.js')
 
 
-main.getMoment()
+const moment = main.getMoment(1628098960787)
+
+console.log(moment)
