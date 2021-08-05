@@ -22,11 +22,18 @@ you that value like *created 20 second ago*
 ```
 const apsmoment = require('timepass.aps');
 
-const time = new Date.now();
+const time = CREATE_DATE_FROM_DB;
+
 const moment = apsmoment.getMoment(time);
 
 console.log(moment);
 ```
+
+## Finctions
+
+- getMoment()
+- getCounter()
+
 
 ## Author
 

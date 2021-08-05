@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+</head>
+
+<body>
+    <h1>Counter</h1>
+    <p id="output"></p>
+</body>
+<style>
+    #output {
+        font-size: 3em;
+        font-weight: 900;
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+    const output = document.getElementById('output');
+
+    const counter = () => {
+        const _second = new Date().getSeconds();
+        const _minute = new Date().getMinutes();
+        const _hour = new Date().getHours();
+        output.innerHTML = `${_hour}:${_minute}:${_second}`;
+    }
+
+    setInterval(() => {
+        counter()
+    }, 1000)
+</script>
+
+</html>
