@@ -10,6 +10,10 @@ const main = require('./index.js')
  * @print
  * console.log(moment)
  * */
-const moment = main.getMoment(1628098960787)
+
+console.log(Date.now())
+
+// const moment = main.getMoment(1628098960787)
+const moment = main.getMoment(1628161891965)
 
 console.log(moment)
