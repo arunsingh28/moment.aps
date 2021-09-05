@@ -9,6 +9,10 @@ exports.getMoment = (input_time) => {
     const _day = Math.floor(_hours / 24);
     const _month = Math.floor(_hours * .001369);
 
+    // get current month
+    const current_month = new Date
+    console.log(current_month.getUTCMonth())
+
     console.log('min', _min)
     console.log('second', _second)
     console.log('Hours', _hours)
@@ -29,10 +33,10 @@ exports.getMoment = (input_time) => {
     if (_hours <= 24) {
         return `${_hours} hours ago`
     }
-    if (_hours > 24) {
+    if (_day >= 1 && _day <= 31) {
         return `${_day} Days ago`
     }
-    if (_day >= 31) {
+    if (_month >= 1) {
         return `${_month} Months ago`
     }
 }
